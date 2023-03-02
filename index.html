@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/game icon.png" type="image/x-icon">
+  <title>html | css | js boilerplate</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main class="card" id="card">
+    
+    <div class="card-header">
+    <h4>highscore:<span class="highscore" id="highscore">0</span></h4>
+    <h4>Guesses:<span class="guesses" id="guesses">10</span></h4>
+  </div>
+
+
+  <div class="card-title">
+    <h1 class="title">Guess my Number</h1>
+    <p class="para">Number Range between 1-50</p></div>
+
+
+    <div class="error" id="error"><strong>Please make sure your number is between a Given Range</strong></div>
+    
+    <div class="card-container">
+      <input type="number" name="" id="guess-num" class="guess-num">
+    </div>
+
+    <div class="btn-guess" id="btn-guess">
+      <button type="submit">Enter</button>
+    </div>
+
+    <div class="output" id="output">
+      <p id="output-val" class="output=val"></p>
+    </div>
+
+  </main>
+
+  <div class="footer"><button type="reset" class="btn-reset" id="btn-reset">Reset</button></div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
